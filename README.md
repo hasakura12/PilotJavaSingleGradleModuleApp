@@ -1,9 +1,14 @@
 # PilotJavaSingleGradleModuleApp
 
-## How to build the project
+## How to build the project and create binary distributions (zip and tar)
 `./gradlew build`
 
-This will compile the project and run tests
+This will compile the project and run tests.
+
+Following files will be created:
+`Zip` and `tar`  under `build/distributions`
+Executable `jar` under `build/libs`
+
 
 ## How to run only tests
 `gradle test`
@@ -20,5 +25,5 @@ or
 
 then,
 
-`java -jar PilotJavaSingleGradleModuleApp-1.0.jar `
+`java -jar PilotJavaSingleGradleModuleApp-1.0.jar`
 
